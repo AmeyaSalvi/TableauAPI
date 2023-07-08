@@ -4,4 +4,15 @@
 from tableau_api_lib import TableauServerConnection
 from tableau_api_lib.utils.querying import get_views_dataframe, get_view_data_dataframe
 
-#
+#This is the credential we can use to communicating with your tableau server
+
+tableau_server_config = {
+        'tableau_prod': {
+                'server': 'https://tableau.xyz.com',  
+                'api_version': '3.9',
+                'username': list_cred[1],
+                'password': list_cred[3],
+                'site_name': 'YourSiteName',
+                'site_url': 'YourSiteURLName'
+        }
+}
