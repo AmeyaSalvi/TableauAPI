@@ -1,1 +1,7 @@
+#Here, we begin with connecting our python script to the Tableau Dahsboard by using Tableau APIs
+#Connecting to the Tableau server through Tableau-Python API
 
+from tableau_api_lib import TableauServerConnection
+from tableau_api_lib.utils.querying import get_views_dataframe, get_view_data_dataframe
+
+#
