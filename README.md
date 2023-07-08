@@ -1,5 +1,5 @@
 Task: 
-Creating a python code that captures the Tableau dashboard snippets by application of various combination of filters, and creates a powerpoint prsesntation.
+Creating a python code that captures the Tableau dashboard snippets by application of various combination of filters, and creates a powerpoint presentation.
 
 Why is this important?
 Applying custom filters and creating a PowerPoint presentation using a Python script and the Tableau API can be important for several reasons:
